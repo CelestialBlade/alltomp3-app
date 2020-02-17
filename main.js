@@ -474,7 +474,7 @@ function createWindow () {
     alltomp3.relevanceLanguage = locale;
   }
   let supportedLocales = ['en', 'fr', 'ar', 'tr', 'fi', 'ja', 'es', 'pt', 'de', 'it', 'hu', 'he', 'ru', 'ir', 'nl'];
-  let supportedLocale = 'en';
+  let supportedLocale = 'he' ;
   if (supportedLocales.indexOf(locale) > -1) {
     supportedLocale = locale;
   }
